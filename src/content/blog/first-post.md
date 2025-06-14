@@ -1,7 +1,7 @@
 ---
-title: "First post"
+title: "Bullsheets to go here"
 description: "Lorem ipsum dolor sit amet"
-pubDate: "Jul 08 2022"
+pubDate: "June 14 2025"
 heroImage: "/blog-placeholder-3.jpg"
 ---
 
