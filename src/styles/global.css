@@ -136,6 +136,10 @@ hr {
   }
 }
 
+.center {
+  text-align: center;
+}
+
 #side-bar ul {
   list-style-type: none;
 }
