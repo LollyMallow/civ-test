@@ -158,6 +158,8 @@ hr {
   text-align: center;
 }
 
+/* code below kindly from Josh Collins, SIV 2025 */
+
 #side-bar ul {
   list-style-type: none;
 }
