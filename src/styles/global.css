@@ -136,6 +136,69 @@ hr {
   }
 }
 
+#side-bar ul {
+  list-style-type: none;
+}
+#side-bar ul a {
+  color: #000;
+  text-decoration: none;
+}
+#side-bar ul a:hover {
+  text-decoration: underline;
+}
+.container {
+  padding-bottom: 80px;
+}
+#side-bar {
+  padding-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  #side-bar {
+    width: 300px;
+    position: fixed;
+    padding: 30px 10px 0 20px;
+  }
+  #side-bar + .container {
+    margin-left: 300px;
+    max-width: calc(100% - 320px);
+    width: 1140px;
+  }
+}
+#registration-details-form form > div {
+  padding-top: 120px;
+}
+#registration-details-form .btn-primary {
+  color: #fff;
+  border-color: #007bff;
+}
+.form-check {
+  display: flex;
+  align-items: center;
+}
+.form-check .form-check-label {
+  line-height: 138%;
+  padding-top: 6px;
+}
+.wpum-account-form fieldset {
+  display: none;
+}
+.wpum-account-form fieldset.fieldset-user_email {
+  display: block;
+}
+@media screen and (max-width: 767px) {
+  body.home #main .is-nowrap {
+    display: block;
+  }
+}
+main table td,
+main table td:first-child {
+  padding-left: 0.5em;
+}
+.navbar-nav li:last-child a {
+  font-weight: 700;
+  color: #0ff4dd;
+}
+
 .sr-only {
   border: 0;
   padding: 0;
